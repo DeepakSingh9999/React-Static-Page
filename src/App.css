@@ -1,0 +1,35 @@
+
+#root {
+  max-width: 980px;
+  margin: 0 auto;
+  border: 1px solid #363a41;
+  border-radius: 15px;
+}
+
+.logo {
+  height: 14em;
+  padding: 0;
+  will-change: filter;
+  transition: filter 300ms;
+  opacity: 0.1;
+  filter: grayscale(1);
+  position: absolute;
+  top: 35vh;
+  left: 60vw;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
