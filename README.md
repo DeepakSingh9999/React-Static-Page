@@ -6,6 +6,10 @@ Welcome to **React Facts**! 🎉 This is a simple, static website built with **R
 
 https://react-static-page-one.vercel.app/
 
+### Demo:
+
+<img width="1232" height="994" alt="Image" src="https://github.com/user-attachments/assets/7d0f5157-6f37-4663-8daf-c77ea21b3057" />
+
 #### Features:
 
 * A sleek and minimal design, made with React components.
